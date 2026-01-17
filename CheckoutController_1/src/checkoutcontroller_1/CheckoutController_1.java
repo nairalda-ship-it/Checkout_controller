@@ -26,7 +26,7 @@ public class CheckoutController_1 extends Application { // create a  public clas
         VBox root = new VBox(10, nameField, adressField, paymentType, confirmBtn, feedback);
         root.setStyle("-fx-padding: 15;"); // enter the parameters that we want of how ui would look like
 
-        stage.setScene(new Scene(root, 200, 120)); // parameters of the output box 
+        stage.setScene(new Scene(root, 400, 320)); // parameters of the output box 
         stage.setTitle("Checkout"); // 
         stage.show();
     }
@@ -50,4 +50,5 @@ public class CheckoutController_1 extends Application { // create a  public clas
     }
 }
 // close the part of this code
+
 // Nairalda Meta
